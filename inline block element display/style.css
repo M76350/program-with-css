@@ -1,0 +1,29 @@
+
+  
+    /* padding: 20px;
+    margin: 100px; */
+    /* in the inline element no  one can effect(ex-margin ,padding,,width,height,and other) */
+
+    
+
+/* if we wnat to change the value of inline element then we have to convert in 
+to block level element */
+/* so see here */
+a{
+    
+    margin: 70px;
+    padding: 50px;
+    color: blue;
+    border: 2px solid cornflowerblue;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+

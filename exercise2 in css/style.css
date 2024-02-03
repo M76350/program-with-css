@@ -1,0 +1,32 @@
+li{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 150px;
+    border-bottom: 1px solid #444;
+    font-size: 20px;
+    
+}  
+
+a{
+    color: #080808;
+    text-decoration: none;
+}
+
+nav{
+    border: 2px solid orchid;
+    text-align: center;
+    background-color: rgb(158, 146, 137);
+}
+section{
+    border: 2px solid burlywood;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
+
+
+}
+h3{
+    margin-left: 25px;
+    border-bottom:1px solid #080808;
+
+}

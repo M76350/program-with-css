@@ -1,0 +1,30 @@
+hr{
+  border: 1px dashed black;
+ 
+  align-items: center;
+margin:  0 ;
+width: 500px;
+
+}
+
+.mk,.rk{
+    /*   box-sizing: border-box; are used to lock the size of bow
+    after used this command all the operation perfromed within border*/
+
+    box-sizing: border-box;
+    width: 500px;
+    border: 4px solid rgb(255, 0, 21);
+    margin-top: 15px;
+    padding: 20px;
+    text-align: justify;
+    background-color: chartreuse;
+
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+
+

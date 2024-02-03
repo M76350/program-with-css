@@ -1,0 +1,44 @@
+.cool::before{
+
+    content: 'MANISH';
+    color: red;
+    border: 2px dotted green;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.cool::after{
+    content: "yadav";
+   width: auto;
+   height: 40px;
+    color: red;
+    border: 2px dotted green;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.jk::before{
+    content: "Ahir Anish";
+    width: auto;
+    height: 40px;
+     color: red;
+     border: 2px dotted green;
+     display: block;
+     margin: 5px;
+     padding: 5px;
+}
+
+.jk::after{
+    content: "Yadav";
+    width: auto;
+    height: 40px;
+     color: red;
+     border: 2px dotted green;
+     display: block;
+     margin: 5px;
+     padding: 5px;
+}
+/* it can not support br,image,video,input frames */

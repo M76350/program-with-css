@@ -1,0 +1,53 @@
+*{
+    box-sizing:border-box ;
+
+}
+.box1{
+   
+
+}
+.box2{
+   border: 2px solid red;
+   width: 25%;
+   float:left;
+   height: 25%;
+   background-color: rgb(237, 18, 18);
+   color: aliceblue;
+}
+.box3{
+   width: 25%;
+   float:right;
+   background-color: yellow;
+
+}
+.box{
+   clear: left;
+   background-color: green;
+   /* clear :left: ; and clear:both*  are as like same
+   these element are  used to start after before vox(div)
+    */
+
+}
+.rk{
+    float: left;
+    width: 25%;
+    color: yellow;
+    background-color: black;
+}
+.pk{
+    float: left;
+    width: 25%;
+    color: white;
+    background-color: black;
+}
+
+.clearfix{
+   clear: fix;
+   /* clear fix is used to fixed the all box(div)  
+   in his parent class*/
+}
+.box1::after{
+    content: "inline";
+    clear: both; 
+}
+

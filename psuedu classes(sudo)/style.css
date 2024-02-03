@@ -1,0 +1,11 @@
+/* psuedo element name 
+link,visited,hover,active */
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border: 5x solid rgba(143, 15, 15, 0.875);
+    border-top-color: black;
+    animation: rotate is infinite;
+}

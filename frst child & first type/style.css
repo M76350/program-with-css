@@ -1,0 +1,9 @@
+/* p:first-child{
+    color: red;
+
+} */
+/* :first-child is state that all the first hild of elemet */
+
+p:first-of-type{
+    color: yellow;
+}

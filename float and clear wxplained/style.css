@@ -1,0 +1,35 @@
+*{
+     box-sizing:border-box ;
+
+}
+.box1{
+    border: 4px solid green;
+
+}
+.box2{
+    border: 2px solid red;
+    width: 40%;
+    float:left;
+    background-color: #234;
+    color: aliceblue;
+}
+.box3{
+    width: 60%;
+    float:right;
+    background-color: yellow;
+
+}
+.box{
+    clear: left;
+    background-color: green;
+    /* clear :left: ; and clear:both*  are as like same
+    these element are  used to start after before vox(div)
+     */
+
+}
+
+.clearfix{
+    clear: both;
+    /* clear fix is used to fixed the all box(div)  
+    in his parent class*/
+}

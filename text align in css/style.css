@@ -1,0 +1,28 @@
+h1{
+    text-decoration:underline wavy rgb(216, 12, 100);
+    width: 15ex;
+    background-color: blueviolet;
+    text-align: center;
+    margin-left: 450px;
+}
+
+a{
+    display: inline-block;
+    width: 500px;
+    background-color: brown;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* use of width of font-------------------------------_______________________________________________________ */
+h2{
+    font-weight: 700;
+    text-decoration: underline solid crimson;
+}
+p{
+    font-weight: bold;
+    word-spacing: 8px;
+    line-height: 30px;
+    font-size: medium;
+    letter-spacing: 2px;
+}

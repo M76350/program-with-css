@@ -1,0 +1,150 @@
+.class1{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    animation-name: manish;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+
+
+}
+.mk{
+    width: 200px;
+    height: 100px;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    animation-name: manishkumar;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+   
+    
+}
+@keyframes manish{
+    from{
+        background-color: red;
+        width: 200px;
+        height: 100px;
+        
+    }
+    to{
+        background-color: green;
+        width: 600px;
+        height: 20px;
+    }
+
+
+}  
+
+.mm{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: brown;
+    animation-name: manishkumar;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+    position: relative;
+    animation-iteration-count: infinite;
+  
+}
+@keyframes manishkumar{
+    0%{top: 0;
+        left: 0;
+        background: green;
+
+    }
+   25%{top: 0;
+    left: 300px;
+    background: rgba(15, 111, 110, 0.358);
+
+   }
+    50%{top: 300px;
+        left: 300px;
+        background: rgb(160, 24, 63);
+
+    }
+    75%{top: 300px;
+        left: 0px;
+        background: rgb(73, 43, 120);
+
+    } 
+    100%{top:0 px;
+        left: 0px;
+        background: rgb(208, 134, 30);
+    }
+      
+    
+
+
+}
+/* ################# animatiojn transaction############### */
+
+.rk{
+    width: 50px;
+    height: 50px;
+    margin: 300px 380px;
+    animation-name: manishyadav;
+    animation-duration: 1s;
+    animation-delay: 500ms;
+    animation-iteration-count: infinite;
+    background-color: lightblue;
+    animation-fill-mode: forwards;
+
+    /* transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out; */
+    /* transition:background 1s ease-in-out,
+                width 2s ease-in-out,height 2s ease-in-out; */
+    transition: all 1s ease-in;
+
+}
+.rk:hover{
+    background: lightcoral;
+     width: 600px;
+    height: 40px;
+    
+} 
+
+/* ###################### transform property #################*/
+.ram{
+
+    width: 90px;
+    height: 90px;
+    margin: 350px 400px;
+    background-color: lightcoral;
+    /* rotate,skew,transalate */
+    transform: rotate(360deg);
+    font-size: 1.2rem;
+    transition: transfrom 5s ease-in-out;
+    
+  
+   
+   
+}
+.ram:hover{
+    /* transform: rotate(360deg); */
+    transition-duration: 5s;
+    /* transform: scale(2,4); */
+    /*  transform: scale(2);  do the size of item multipy  with (fixed the size   ,,(as 2)) */
+
+    /* transform:scaleX(2) ; */
+    /*  transform: scale(2);  do the size of item multipy  with (fixed the size   ,,(as 2))   in the x direction */
+    /* transform:scaley(2) ; */
+   /*  transform: scale(2);  do the size of item multipy  with (fixed the size   ,,(as 2))   in the y direction */
+   transform-origin: top left;
+   transition: all 1s ease-in;
+    /* transform: rotate(360deg); */
+    /* transform: transalate(100px,50px); */
+    transform:skew(30deg,20deg);
+    
+
+    
+
+}

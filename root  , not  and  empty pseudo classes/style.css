@@ -1,0 +1,27 @@
+body:not(p)
+{
+     color: #1c0b7c;
+}
+
+/* :root{
+    color: #e54f1c;
+    background-color: chartreuse;
+/* the root element select the html tag */
+
+/* } */
+ 
+html{
+    color: #e54f1c;
+    background-color: rgb(191, 18, 27);
+/* the root element select the html tag */
+/* root  */
+}
+ 
+div:empty{
+    background-color: #222;
+    border: 2px solid red;
+    width: 1000px;
+    height: 100px;
+/* :empty  coustomize the empty element and tags */
+
+}

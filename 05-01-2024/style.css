@@ -1,0 +1,37 @@
+/* pseaudo element following here
+ink,visited,hover,active */
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: aqua;
+    /* it state that indentifies the visited link or text */
+
+
+}
+
+a:hover{
+    color: rgb(255, 204, 0)
+    ;
+}
+
+a:active{
+    color: chartreuse;
+}
+
+p:active{
+    color: aqua;
+
+}
+
+p:hover{
+    color: rgb(255, 30, 0)
+    ;
+}
+input:focus{
+    padding: 5px;
+    outline: none;
+    border: 9px solid rgb(128, 98, 0);
+}

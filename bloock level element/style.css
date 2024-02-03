@@ -1,0 +1,42 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    
+
+}
+
+h2,h1{
+    border: 2px solid chocolate;
+    /* width: 500px;
+    padding:0 50px; */
+    display: inline;
+    /* display  inline   do the all element in the single line */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100px;
+ */
+}
+
+a{
+    
+    border: 2px solid coral;
+    /* width: 100px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 40px;
+    padding: 40px; */
+    /* in the inline   element   height and width can no effect
+    because these are the inline  eleme t in the css */
+/* in theinline element margin top and margin down can not work propely */
+display: block;
+/* display : blockis used to change in to block level element 
+and after converted in to block level   we can pass the margin and padding and other */
+margin: 40px;
+padding: 40px;
+
+
+}
+
+
+

@@ -1,0 +1,19 @@
+html{
+
+    font-size: 10px;
+
+}
+
+.mk{
+    font-size: 4rem;
+    /* rem ia a font size unite    ,that tells the multiple of root font size */
+border: 5PX solid rgb(18, 2, 75);
+
+}
+
+.ll{
+    border: 2px solid red;
+    font-size: 3REM;
+
+}
+

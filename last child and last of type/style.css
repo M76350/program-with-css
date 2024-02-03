@@ -1,0 +1,11 @@
+/* p:last-child{
+    color: red;
+} */
+p:last-of-type{
+    color:blue;
+}
+
+/* :last-child show the last cild of the element */
+
+/* :last-of-type  decleare that all the last element of that parent element
+ */
